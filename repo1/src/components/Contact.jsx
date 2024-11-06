@@ -23,10 +23,6 @@ function Contact() {
         <ListItemText primary="Aung Ko Min Han" sx={{ml: 2}} />
       </ListItem>
       <ListItem>
-        <InsertInvitationIcon/>
-        <ListItemText primary="12.10.1997"  sx={{ml: 2}} />
-      </ListItem>
-      <ListItem>
         <PhoneIphoneIcon/>
         <ListItemText primary="09791721255"  sx={{ml: 2}} />
       </ListItem>

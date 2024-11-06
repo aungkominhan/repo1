@@ -16,7 +16,7 @@ export default function App() {
       <Header />
       <Divider fullwidth />
     
-      <Box sx={{ display: "flex", justifyContent: "center", mr: 70, ml: 70 }}>
+      <Box sx={{ display: "flex", justifyContent: "center", flexDirection: "column"}}>
         <About/>
       </Box>
       <EducationBackground/>

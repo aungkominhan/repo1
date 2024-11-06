@@ -28,11 +28,12 @@ const EducationBackground = () => {
   return (
     <Grid id="educationBackground" container spacing={3} style={{ padding: '20px' }}>
       {educationData.map((education, index) => (
-        <Grid item xs={12} sm={6} md={4} key={index} sx={{
-            "&:hover": {
-              transform: "scale(1.1)",
-            },}}>
-          <Card elevation={3} style={{ height: '100%' }}>
+        <Grid item xs={12} sm={6} md={4} key={index} >
+          <Card elevation={3} sx={{ height: '100%', borderRadius: 10,   transition: "transform 0.2s, background-color 0.2s",
+          "&:hover": {
+            backgroundColor: "primary",
+            transform: "scale(1.1)",
+          } }}>
             <CardContent>
               <Grid container alignItems="center" spacing={1}>
                 <Grid item>

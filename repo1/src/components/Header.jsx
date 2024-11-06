@@ -7,7 +7,7 @@ function Header() {
     <AppBar position="fixed" color="primary">
       <Toolbar>
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          My Portfolio
+          Portfolio
         </Typography>
         <Button color="inherit" href="#about">About</Button>
         <Button color="inherit" href="#educationBackground">Education</Button>

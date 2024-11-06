@@ -15,12 +15,12 @@ const skills = [
   {
     category: 'Frameworks & Libraries',
     icon: <LibraryBooksIcon color="secondary" />,
-    items: ['React', 'Node.js', 'Express', 'MUI', "bootstrap"],
+    items: ['React','ReactNative', 'Next.js', 'Node.js', 'Express', 'MUI','TailwindCss', "bootstrap", 'Shadcn'],
   },
   {
     category: 'Tools',
     icon: <BuildIcon color="action" />,
-    items: ['Git', 'GitHub', 'VS Code'],
+    items: ['Git', 'GitHub'],
   },
   {
     category: 'Soft Skills',
@@ -37,11 +37,12 @@ function Skills() {
       </Typography>
       <Grid container spacing={3}>
         {skills.map((skill, index) => (
-          <Grid item xs={12} sm={6} md={3} key={index} sx={{
+          <Grid item xs={12} sm={6} md={3} key={index} >
+            <Paper elevation={3} sx={{ padding: 2, borderRadius: 3,   transition: "transform 0.2s, background-color 0.2s",
             "&:hover": {
-              transform: "scale(1.2)",
-            },}}>
-            <Paper elevation={3} sx={{ padding: 2, borderRadius: 3, }}>
+              backgroundColor: "primary",
+              transform: "scale(1.1)",
+            } }}>
               <Box display="flex" alignItems="center" mb={1}>
                 {skill.icon}
                 <Typography variant="h6" sx={{ ml: 1 }}>
