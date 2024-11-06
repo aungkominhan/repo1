@@ -19,12 +19,12 @@ const skills = [
   },
   {
     category: 'Tools',
-    icon: <BuildIcon color="action" />,
+    icon: <BuildIcon color="secondary" />,
     items: ['Git', 'GitHub'],
   },
   {
     category: 'Soft Skills',
-    icon: <PeopleIcon color="disabled" />,
+    icon: <PeopleIcon color="secondary" />,
     items: ['Problem Solving', 'Communication', 'Teamwork'],
   },
 ];
