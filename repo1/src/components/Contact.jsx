@@ -34,7 +34,7 @@ function Contact() {
         <Typography variant="body1">
           <EmailIcon sx={{ mr: 1 }} />
           You can reach me at{' '}
-          <Link href="mailto:eithawtar1210@gmail.com" color="primary">
+          <Link href="mailto:sayakey1210@gmail.com" color="primary">
             sayakey1210@gamil.com
           </Link>
           
