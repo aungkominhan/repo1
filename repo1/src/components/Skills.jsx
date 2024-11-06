@@ -15,7 +15,7 @@ const skills = [
   {
     category: 'Frameworks & Libraries',
     icon: <LibraryBooksIcon color="secondary" />,
-    items: ['React','ReactNative', 'Next.js', 'Node.js', 'Express', 'MUI','TailwindCss', "bootstrap", 'Shadcn'],
+    items: ['React','ReactNative', 'Next.js', 'Node.js','Typescript', 'Express', 'MUI','TailwindCss', "bootstrap", 'Shadcn'],
   },
   {
     category: 'Tools',

@@ -33,7 +33,7 @@ function Contact() {
     </List>
         <Typography variant="body1">
           <EmailIcon sx={{ mr: 1 }} />
-          You can contact me at { <Link href="sayakey1210@gmail.com" color="primary">
+          You can contact me at { <Link href="mailto:sayakey1210@gmail.com" color="primary">
             sayakey1210@gamil.com
           </Link>}
          

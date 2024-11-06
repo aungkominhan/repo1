@@ -14,7 +14,7 @@ const educationData = [
     institution: 'Msquare Programming',
     degree: 'Full-Stack Web Development Program',
     years: '2021 - 2022',
-    description: 'An intensive program covering modern web technologies, including React, Node.js, Next.js,Prisma and PostgreSQL.',
+    description: 'An intensive program covering modern web technologies, including React, Node.js,Typescript, Next.js,Prisma and PostgreSQL.',
   },
   {
     institution: 'FairWay Technology',
